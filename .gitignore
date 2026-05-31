@@ -1,0 +1,17 @@
+.DS_Store
+*.log
+
+node_modules/
+client/node_modules/
+
+dist/
+client/dist/
+client/src-tauri/target/
+
+.env
+.env.*
+!.env.example
+
+*.local
+coverage/
+.vite/
